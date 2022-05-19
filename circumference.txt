@@ -1,0 +1,7 @@
+function circumferenceFromRadius(num) {
+        return num = 2 * Math.PI * num
+    }
+
+    function circumferenceFromDiameter(num) {
+        return num = Math.PI * num
+    }

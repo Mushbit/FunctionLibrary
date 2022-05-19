@@ -1,0 +1,16 @@
+        let usr = prompt('Who is there?');
+
+        if (usr === 'admin'){
+           let pwd = prompt('Password');
+           if (pwd == 'TheMaster') {
+               alert('Welcome!');
+           } else if(pwd == null || pwd == ""){
+               alert('Canceled');
+           } else {
+               alert('I dont\'t know you!');
+           }
+        } else if(usr == null || usr == "") {
+            alert('Cancelled')   
+        } else {
+            alert('I don\'t know you!');
+        }

@@ -1,0 +1,3 @@
+    function cubed(num) {
+        return num * num * num;
+    }

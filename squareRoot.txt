@@ -1,0 +1,42 @@
+function squareRoot(num) {
+        switch (+num) {
+            case 0:
+                num = 0;
+                break;
+            case 1:
+                num = 1;
+                break;
+            case 4:
+                num = 2;
+                break;
+            case 9:
+                num = 3;
+                break;
+            case 16:
+                num = 4;
+                break;
+            case 25:
+                num = 5;
+                break;
+            case 36:
+                num = 6;
+                break;
+            case 49:
+                num = 7;
+                break;
+            case 64:
+                num = 8;
+                break;
+            case 81:
+                num = 9;
+                break;
+            case 100:
+                num = 10;
+                break;
+            
+            default:
+                num =  "too hard to deal with";
+                break;
+        }
+        return num;
+    }
